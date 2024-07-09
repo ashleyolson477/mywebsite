@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+.logo h2 {
+    font-size: 1.5rem;
+}
+
+.nav-items ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-items li {
+    margin-right: 1rem;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero-section {
+    /* Add background image styles here */
+}
