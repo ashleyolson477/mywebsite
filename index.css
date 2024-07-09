@@ -4,12 +4,18 @@ h1{
 }
 
 h2{
+    background-color: rgb(188, 104, 104);
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
     text-align: center;
-    font-size: 18px;
+    margin: 10px;
+    color: slateblue;
 }
 
 a{
-    background-color: white;
+    background-color: rgb(188, 104, 104);
     font-size: 20px;
     border-radius: 10px;
     padding: 10px;
