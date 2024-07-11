@@ -1,4 +1,4 @@
-/* Style for the navigation menu */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -33,4 +33,12 @@ nav {
 /* Add hover effect for links */
 .nav-items a:hover {
     text-decoration: underline;
+}
+
+.home h1{
+    text-align: center;
+}
+
+.home h3{
+    text-align: center;
 }
