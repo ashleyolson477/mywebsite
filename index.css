@@ -1,38 +1,36 @@
-h1{
-    text-align: center;
-    font-size: 30px;
-}
-
-h2{
-    background-color: rgb(255, 255, 255);
-    font-size: 20px;
-    border-radius: 10px;
+/* Style for the navigation menu */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dccece; /* Change to your desired background color */
     padding: 10px;
-    display: block;
-    text-align: center;
-    margin: 10px;
-    color: slateblue;
 }
 
-a{
-    background-color: rgb(188, 104, 104);
-    font-size: 20px;
-    border-radius: 10px;
-    padding: 10px;
-    display: block;
-    text-align: center;
-    margin: 10px;
-    color: slateblue;
+.logo h2 {
+    color: rgb(55, 0, 222); /* Change to your desired text color */
+    font-size: 24px;
+    margin: 0;
 }
 
-.overview{
-    width: 100%;
-    background-color: #555;
-    overflow: auto;
-}
-
-.overview li{
-    list-style-type: none;
+.nav-items ul {
+    list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+}
+
+.nav-items li {
+    margin-right: 20px;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: rgb(27, 125, 163); /* Change to your desired link color */
+    font-size: 16px;
+}
+
+/* Add hover effect for links */
+.nav-items a:hover {
+    text-decoration: underline;
 }
