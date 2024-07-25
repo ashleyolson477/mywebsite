@@ -43,3 +43,47 @@ header{
     cursor: pointer;
     transition: 0.5s ease;
 }
+
+.logo:hover{
+    transform: scale(1.05);
+}
+
+nav a{
+    font-size: 1.8rem;
+    color:white;
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover,
+nav a:active{
+    color: white;
+    border-bottom: 3px solid white;
+}
+
+@media(max-width:95px){
+    nav{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 40%;
+        border-left: 3px solid white;
+        border-bottom: 3px solid white;
+        border-bottom-left-radius: 2rem;
+        padding: 1rem solid;
+        background-color: black;
+        border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+    }
+}
+
+nav .active{
+    display: block;
+}
+
+nav a{
+    display: block;
+    font-size: 2rem;
+    margin: 3rem 0;
+}
