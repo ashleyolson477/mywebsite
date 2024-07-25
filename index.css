@@ -22,3 +22,24 @@ body{
     color: white;
 }
 
+header{
+    margin-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
