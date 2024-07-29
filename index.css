@@ -63,7 +63,7 @@ nav a:active{
     border-bottom: 3px solid white;
 }
 
-@media(max-width:95px){
+@media(max-width:995px){
     nav{
         position: absolute;
         display: none;
@@ -73,7 +73,7 @@ nav a:active{
         border-left: 3px solid white;
         border-bottom: 3px solid white;
         border-bottom-left-radius: 2rem;
-        padding: 1rem solid;
+        padding: 1rem solid white;
         background-color: rgb(220, 209, 158);
         border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
     }
@@ -96,7 +96,7 @@ nav a.active{
     border-bottom: 0.5rem solid rgb(63, 110, 59);
 }
 
-section{
+section{ 
     min-height: 100vh;
     padding: 5rem 9% 5rem;
 }
